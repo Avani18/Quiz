@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:transitionGroup="false"
+    tools:context="com.example.a500060696.quiz.SecondActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_weight="0"
+        android:text="Q1. Which is the national bird of India ?"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_weight="0"
+        android:gravity="left"
+        android:text="Parrot"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteY="210dp"
+        tools:textSize="24sp" />
+
+    <RadioButton
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_weight="0"
+        android:gravity="left"
+
+        android:text="Peacock"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <RadioButton
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_weight="0"
+        android:text="Crow"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <RadioButton
+        android:id="@+id/d"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_weight="0"
+        android:text="Sparrow"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteY="450dp" />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:text="Submit"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="550dp" />
+
+</LinearLayout>
